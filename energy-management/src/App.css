@@ -1,0 +1,18 @@
+body{
+  background-color: #252321;
+}
+.electricity-hover{
+  filter: drop-shadow(0 0 2em #e9fa00aa);
+}
+
+.water-hover{
+  filter: drop-shadow(0 0 2em #00d4e8aa);
+}
+
+.slide-transition {
+  transition: all 0.1s ease-in-out;
+}
+
+.highlight {
+  background-color: grey; 
+}
