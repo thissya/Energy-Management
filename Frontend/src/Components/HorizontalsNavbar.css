@@ -1,0 +1,77 @@
+/* HorizontalsNavbar.css */
+
+/* Overlay to cover the entire page */
+.ReactModal__Overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7); /* Darker semi-transparent background */
+}
+
+/* Modal content styling */
+.ReactModal__Content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff; /* White background for the modal */
+    border-radius: 8px;
+    padding: 20px;
+    width: 90%; /* Adjust width as needed */
+    max-width: 400px; /* Maximum width */
+    max-height: 80%; /* Maximum height */
+    overflow: auto; /* Scroll if content overflows */
+}
+
+/* Close button styling */
+.ReactModal__Content .float-right {
+    cursor: pointer;
+    background-color: #e0e0e0; /* Light gray background for close button */
+    border: none;
+    border-radius: 4px;
+    padding: 8px;
+    font-size: 16px;
+}
+
+/* Form styling */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: 16px;
+    margin-bottom: 8px;
+    color: #333; /* Dark gray text color for labels */
+}
+
+input {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-bottom: 12px; /* Space between inputs */
+}
+
+button[type="submit"] {
+    background-color: #007bff; /* Blue background for the login button */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 12px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+p {
+    color: #ff0000; /* Red color for error messages */
+    font-size: 14px;
+    margin-top: 10px;
+}
